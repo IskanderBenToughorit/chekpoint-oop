@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.cart {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+h2{
+text-align: center;
+}
+
+.item-image {
+    width: 50px; 
+    height: auto; 
+    margin-right: 10px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px; 
+    color: black;
+    transition: color 0.3s;
+}
+
+.like-btn.liked {
+    color: red; 
+}
+
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
